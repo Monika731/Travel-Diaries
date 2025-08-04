@@ -1,0 +1,47 @@
+.edit-container {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 2.5rem 2rem;
+    padding-right: 3rem;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+  
+  .edit-container h2 {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    color: #333;
+  }
+  
+  .edit-container input,
+  .edit-container textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: vertical;
+  }
+  
+  .edit-container textarea {
+    height: 120px;
+  }
+  
+  .edit-container button {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    background-color: #008080;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .edit-container button:hover {
+    background-color: #006666;
+  }
+  
