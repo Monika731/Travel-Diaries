@@ -67,7 +67,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough
 
-[![Watch the video]](https://imgur.com/a/7U36dER)
+[![Watch the video]](https://imgur.com/a/gVlOvam)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  LICEcap
