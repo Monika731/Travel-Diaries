@@ -9,6 +9,8 @@ const Home = () => {
   const [sortBy, setSortBy] = useState('created_at');
   const [loading, setLoading] = useState(true);
 
+
+
   const fetchPosts = async () => {
     setLoading(true);
   
@@ -20,6 +22,7 @@ const Home = () => {
       query = query.order('created_at', { ascending: false });
     }
   
+    await new Promise((resolve) => setTimeout(resolve, 2000)); // ⏳ simulate 2s delay
     const { data, error } = await query;
   
     if (error) {
@@ -60,7 +63,12 @@ const Home = () => {
   
       {/* Posts Section */}
       {loading ? (
-        <p className="loading">Loading posts...</p>
+          <div className="dots-loader-container">
+          <div className="dots-loader">
+            <span></span><span></span><span></span>
+          </div>
+          <p>Loading posts...</p>
+        </div>
       ) : posts.length === 0 ? (
         <p className="no-posts">No posts yet. Be the first to share your journey!</p>
       ) : (
