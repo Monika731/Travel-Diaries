@@ -84,6 +84,14 @@ GIF created with ...  LICEcap
 
 Describe any challenges encountered while building the app.
 
+## Deploying to GitHub Pages
+
+1. Set the repository name in `vite.config.js` if it differs from `Travel-Diaries`.
+2. Push to the `main` branch to trigger the GitHub Actions workflow in `.github/workflows/deploy.yml`.
+3. In the repository settings, set **Pages** to use **GitHub Actions** as the source.
+
+The site will be available at `https://<your-github-username>.github.io/Travel-Diaries/`.
+
 ## License
 
     Copyright [yyyy] [name of copyright owner]
